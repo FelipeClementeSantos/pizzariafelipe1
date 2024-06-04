@@ -16,7 +16,7 @@
               <select name="borda" id="borda" class="form-control">
                 <option value="">Selecione a borda</option>
                 <?php foreach($bordas as $borda): ?>
-                  <option value="<?= $borda['id'] ?>"><?= $borda["tipo"] ?></option>
+                  <option value="<?= $borda['id'] ?>"><?= $borda["TIPO"] ?></option>
                 <?php endforeach; ?>
               </select>
             </div>
